@@ -229,25 +229,25 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
     // 2.B.1.1
     // Variables
-    var foo = "bar",
-      num = 1,
-      undef;
+    var foo = "bar";
+    var num = 1;
+    var undef;
 
     // Literal notations:
-    var array = [],
-      object = {};
+    var array = [];
+    var object = {};
 
 
     // 2.B.1.2
     // Using only one `var` per scope (function) promotes readability
     // and keeps your declaration list free of clutter (also saves a few keystrokes)
 
-    // Bad
+    // Good
     var foo = "";
     var bar = "";
     var qux;
 
-    // Good
+    // Bad
     var foo = "",
       bar = "",
       quux;
